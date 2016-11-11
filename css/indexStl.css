@@ -1,0 +1,93 @@
+/*Corpo*/
+body {
+    background-image: url(../res/backgnd.jpg);
+    background-position: center top;
+    background-size: 100% auto;
+    display:block;
+    margin:0 auto;
+    width:576px;
+}
+
+h2{
+    color: #333;
+    text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;
+}
+h4{
+    color: rgba(0,0,0,.6);
+    text-shadow: rgba(0,0,0,.2) 2px 6px 5px,rgba(255,255,255,.4) 0 -4px 30px;
+}
+form {
+    margin:0 auto;
+    width:460px;
+}
+
+/*entradas*/
+input:not([type=radio]), textarea, file {
+    width:439px;
+    height:27px;
+    background-color:#efefef;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+}
+
+div[id=radio]{
+   font-family: "Times New Roman", Times, serif;
+   font-weight: bold;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}        
+	
+textarea {
+    height:80px;
+    background-color: #efefef;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+/*botoes*/
+#docente {
+    width:127px;/*pos*/
+    height:48px;/*pos*/
+    text-align: center;
+    border:none;
+    margin-left:40px;
+    cursor:pointer;
+}
+#docente:hover {
+    color:#fff;
+    background-color: #9070cd;
+    opacity:0.8;
+}
+
+#discente {
+    width:127px;/*pos*/
+    height:48px;/*pos*/
+    text-align: center;
+    border:none;
+    margin-left:80px;
+    cursor:pointer;
+}
+#discente:hover {
+    color:#fff;
+    background-color: #9070cd;
+    opacity:0.8;
+}
+
+button{
+    height:40px;
+    width: 460px;
+    text-align: center;
+    border:none;
+    cursor:pointer;
+}
+button:hover{
+    color:#fff;
+    background-color: #9070cd;
+    opacity:0.8;
+}
